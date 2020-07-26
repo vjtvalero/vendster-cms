@@ -1,0 +1,84 @@
+{
+    "routes": [
+        {
+            "method": "GET",
+            "path": "/reports/sales",
+            "handler": "reports.sales",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/reports/assets",
+            "handler": "reports.assets",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/reports/cash",
+            "handler": "reports.cash",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/reports/profit",
+            "handler": "reports.profit",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/reports",
+            "handler": "reports.find",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/reports/count",
+            "handler": "reports.count",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/reports/:id",
+            "handler": "reports.findOne",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "POST",
+            "path": "/reports",
+            "handler": "reports.create",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "PUT",
+            "path": "/reports/:id",
+            "handler": "reports.update",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "DELETE",
+            "path": "/reports/:id",
+            "handler": "reports.delete",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
+}

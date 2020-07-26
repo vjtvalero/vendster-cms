@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "name": "Reports"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Type": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "decimal"
+    }
+  }
+}

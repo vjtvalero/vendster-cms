@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "name": "Transactions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "amount": {
+      "type": "decimal"
+    },
+    "product": {
+      "type": "string"
+    }
+  }
+}
